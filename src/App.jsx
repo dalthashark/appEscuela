@@ -1,6 +1,7 @@
 // src/App.jsx
 import Navbar from './assets/components/Navbar/Navbar';
 import AlumnoCard from './assets/components/AlumnoCard/AlumnoCard';
+import Contador from './assets/components/Contador/Contador';
 
 function App() {
   return (
@@ -17,56 +18,61 @@ function App() {
           <AlumnoCard
             nombre="Daniel Puccio"
             carrera="Desarrollo de Software"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Maria Perez"
             carrera="Diseño Gráfico"
-            estado="Inactivo"
+            estadoInicial="Inactivo"
           />
 
           <AlumnoCard
             nombre="Carlos Mendoza"
             carrera="Administración Industrial"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Ana Torres"
             carrera="Contabilidad"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Luis Ramírez"
             carrera="Electricidad Industrial"
-            estado="Inactivo"
+            estadoInicial="Inactivo"
           />
 
           <AlumnoCard
             nombre="Sofía Gómez"
             carrera="Marketing Digital"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Javier López"
             carrera="Mecánica Automotriz"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
 
           <AlumnoCard
             nombre="Camila Ruiz"
             carrera="Hotelería"
-            estado="Inactivo"
+            estadoInicial="Inactivo"
           />
 
           <AlumnoCard
             nombre="Diego Sánchez"
             carrera="Seguridad Industrial"
-            estado="Matriculado"
+            estadoInicial="Matriculado"
           />
+
+          <Contador 
+          
+          />
+
         </div>
       </div>
     </>
